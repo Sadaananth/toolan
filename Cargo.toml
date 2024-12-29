@@ -1,0 +1,15 @@
+[package]
+name = "toolan"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pdf-extract = "0.7.12"
+
+[[bin]]
+name = "toolan_test"
+path = "src/main.rs"
+
+[lib]
+name = "toolan"
+path = "src/lib/lib.rs"
